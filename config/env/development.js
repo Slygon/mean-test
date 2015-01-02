@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  db: 'mongodb://localhost/mean-dev1',
+  db: 'mongodb://bill-mate:billtest@linus.mongohq.com:10044/Proteus',
 	debug: 'true',
   mongoose: {
     debug: false
@@ -10,9 +10,9 @@ module.exports = {
     name: 'MEAN - FullStack JS - Development'
   },
   facebook: {
-    clientID: 'DEFAULT_APP_ID',
-    clientSecret: 'APP_SECRET',
-    callbackURL: 'http://localhost:3000/auth/facebook/callback'
+    clientID: '849023395137505',
+    clientSecret: '760a91101024ddbd369de3bef4c70643',
+    callbackURL: 'https://mean-test-slygon.c9.io/auth/facebook/callback'
   },
   twitter: {
     clientID: 'DEFAULT_CONSUMER_KEY',
